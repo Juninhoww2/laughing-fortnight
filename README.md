@@ -6,3 +6,7 @@ npm install
 
 ionic lab or ionic serve
 
+Desktop 
+
+[](assets/desktop.png)
+
