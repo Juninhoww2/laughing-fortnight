@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'about',
     loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   },
+  {
+    path: 'todolist',
+    loadChildren: () => import('./todolist/todolist.module').then( m => m.TodolistPageModule)
+  },
 ];
 
 @NgModule({
