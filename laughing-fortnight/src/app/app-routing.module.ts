@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'todolist',
     loadChildren: () => import('./todolist/todolist.module').then( m => m.TodolistPageModule)
   },
+  {
+    path: 'images',
+    loadChildren: () => import('./images/images.module').then( m => m.ImagesPageModule)
+  },
 ];
 
 @NgModule({
