@@ -8,5 +8,5 @@ ionic lab or ionic serve
 
 Desktop 
 
-[](assets/desktop.png)
+[](laughing-fortnight/laughing-fortnight/src/assets/desktop.png)
 
