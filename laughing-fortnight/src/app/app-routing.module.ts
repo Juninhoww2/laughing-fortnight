@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'images',
     loadChildren: () => import('./images/images.module').then( m => m.ImagesPageModule)
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
 ];
 
 @NgModule({
