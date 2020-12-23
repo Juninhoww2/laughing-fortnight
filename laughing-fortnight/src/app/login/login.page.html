@@ -1,17 +1,43 @@
-<ion-header >
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-        Login
+        Home
     </ion-title> 
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-card>
+    <ion-card-title>
+        Login
+    </ion-card-title>
     <ion-card-content>
-      <ion-card>
+      <ion-item>
+        <ion-label shape="round" fill="outline" position="stacked">Email</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Password</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <ion-button shape="round" fill="outline" href="home">Entrar</ion-button>
+      <ion-button shape="round" color="danger" fill="outline" href="home">
+        <ion-icon slot="start" name="logo-google"> </ion-icon>
+      </ion-button>
+      <ion-button color="primary" shape="round" fill="outline" href="home">
+        <ion-icon slot="start" name="logo-facebook"> </ion-icon>
+      </ion-button>
+      <ion-item>
+        <ion-card-subtitle href="signup">Nao tem uma conta?
+          <ion-button href="signup">Clique Aqui</ion-button>
+        </ion-card-subtitle>
+      </ion-item>
     </ion-card-content> 
   </ion-card>
+
+
 </ion-content>
+
+
 
 
