@@ -7,3 +7,13 @@ ion-card-title {
 ion-title {
     font-family: 'Bungee Outline', cursive;
 }
+
+img {
+    height: 35px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top:50%;
+    transform: translateY(-50%);
+}
