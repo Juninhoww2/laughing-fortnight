@@ -6,8 +6,7 @@
 
 <ion-content>
   <ion-card>
-    <ion-card-title>Pages</ion-card-title>
-
+    <ion-card-title>HOT CHICKEN</ion-card-title>
     <ion-card-content>
       <ion-item href="home">
         <ion-label>
@@ -17,5 +16,19 @@
       </ion-item>
     </ion-card-content>
   </ion-card>
+
+  <ion-content>
+    <ion-grid fixed>
+      <ion-row>
+        <ion-col size='12'>
+          <ion-item>
+            <ion-icon slot="start" name="moon"></ion-icon>
+            <ion-label>Toggle Color Theme</ion-label>
+            <ion-toggle (ionChange)="onToggleColorTheme($event)"></ion-toggle>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
 
 </ion-content>
