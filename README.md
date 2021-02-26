@@ -18,3 +18,4 @@ Mobile
 
 ![](https://github.com/Juninhoww2/laughing-fortnight/blob/main/laughing-fortnight/src/assets/mobile3.png)
 
+AndroidSdk on Android Studio
